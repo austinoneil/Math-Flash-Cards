@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultipleDigits" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Multiple Digit Math"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/MultipleDigitAddition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="Addition"
+        android:onClick="multipleDigitAddition" />
+
+    <Button
+        android:id="@+id/MultipleDigitSubtraction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/MultipleDigitAddition"
+        android:text="Subtraction"
+        android:onClick="multipleDigitSubtraction" />
+
+    <Button
+        android:id="@+id/MultipleDigitMultiplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/MultipleDigitSubtraction"
+        android:text="Multiplication"
+        android:onClick="multipleDigitMultiplication" />
+
+    <Button
+        android:id="@+id/MultipleDigitDivision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/MultipleDigitMultiplication"
+        android:text="Division"
+        android:onClick="multipleDigitDivision" />
+
+</RelativeLayout>

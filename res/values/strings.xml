@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Math flash cards</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_basic_math">BasicMath</string>
+    <string name="title_activity_multiple_digits">MultipleDigits</string>
+    <string name="title_activity_exponents_and_logarithms">ExponentsAndLogarithms</string>
+    <string name="title_activity_factoring">Factoring</string>
+    <string name="title_activity_algebra">Algebra</string>
+    <string name="title_activity_basic_addition">BasicAddition</string>
+    <string name="title_activity_basic_subtraction">BasicSubtraction</string>
+    <string name="title_activity_basic_multiplication">BasicMultiplication</string>
+    <string name="title_activity_basic_division">BasicDivision</string>
+    <string name="title_activity_multiple_digit_addition">MultipleDigitAddition</string>
+    <string name="title_activity_multiple_digit_subtraction">MultipleDigitSubtraction</string>
+    <string name="title_activity_multiple_digit_multiplication">MultipleDigitMultiplication</string>
+    <string name="title_activity_multiple_digit_division">MultipleDigitDivision</string>
+    <string name="title_activity_prime_or_composite">PrimeOrComposite</string>
+    <string name="title_activity_factoring_integers">FactoringIntegers</string>
+
+</resources>

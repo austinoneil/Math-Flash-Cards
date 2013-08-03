@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/MultipleDigits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/BasicMath"
+        android:text="Multiple digits"
+        android:onClick="multipleDigits" />
+
+    <Button
+        android:id="@+id/Factoring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/MultipleDigits"
+        android:onClick="factoring"
+        android:text="Factoring, Primes, and Composites" />
+
+    <Button
+        android:id="@+id/BasicMath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:text="Basic math"
+        android:onClick="basicMath" />
+
+</RelativeLayout>

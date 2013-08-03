@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mathflashcards"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mathflashcards.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.BasicMath"
+            android:label="@string/title_activity_basic_math" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.MultipleDigits"
+            android:label="@string/title_activity_multiple_digits" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.ExponentsAndLogarithms"
+            android:label="@string/title_activity_exponents_and_logarithms" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.Factoring"
+            android:label="@string/title_activity_factoring" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.Algebra"
+            android:label="@string/title_activity_algebra" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.BasicAddition"
+            android:label="@string/title_activity_basic_addition" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.BasicSubtraction"
+            android:label="@string/title_activity_basic_subtraction" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.BasicMultiplication"
+            android:label="@string/title_activity_basic_multiplication" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.BasicDivision"
+            android:label="@string/title_activity_basic_division" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.MultipleDigitAddition"
+            android:label="@string/title_activity_multiple_digit_addition" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.MultipleDigitSubtraction"
+            android:label="@string/title_activity_multiple_digit_subtraction" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.MultipleDigitMultiplication"
+            android:label="@string/title_activity_multiple_digit_multiplication" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.MultipleDigitDivision"
+            android:label="@string/title_activity_multiple_digit_division" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.PrimeOrComposite"
+            android:label="@string/title_activity_prime_or_composite" >
+        </activity>
+        <activity
+            android:name="com.example.mathflashcards.FactoringIntegers"
+            android:label="@string/title_activity_factoring_integers" >
+        </activity>
+    </application>
+
+</manifest>
